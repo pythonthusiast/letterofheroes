@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{d9ade3bf-7e2e-4c7e-96b2-7404afb1bcab}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>main.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments />
+    <InterpreterPath>c:\kivy\kivy.bat</InterpreterPath>
+    <InterpreterArguments />
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Compile Include="main.py" />
+    <Content Include="img\a.png" />
+    <Content Include="img\b.png" />
+    <Content Include="img\c.png" />
+    <Content Include="img\d.png" />
+    <Content Include="img\e.png" />
+    <Content Include="img\f.png" />
+    <Content Include="img\g.png" />
+    <Content Include="img\h.png" />
+    <Content Include="img\i.png" />
+    <Content Include="img\j.png" />
+    <Content Include="img\k.png" />
+    <Content Include="img\l.png" />
+    <Content Include="img\m.png" />
+    <Content Include="img\n.png" />
+    <Content Include="img\o.png" />
+    <Content Include="img\p.png" />
+    <Content Include="img\q.png" />
+    <Content Include="img\r.png" />
+    <Content Include="img\s.png" />
+    <Content Include="img\t.png" />
+    <Content Include="img\u.png" />
+    <Content Include="img\v.png" />
+    <Content Include="img\w.png" />
+    <Content Include="img\x.png" />
+    <Content Include="img\y.png" />
+    <Content Include="img\z.png" />
+    <Compile Include="sandbox\paint\main.py" />
+    <Content Include="LetterOfHeroes.kv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img" />
+    <Folder Include="sandbox\" />
+    <Folder Include="sandbox\paint" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
