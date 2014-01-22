@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{d9ade3bf-7e2e-4c7e-96b2-7404afb1bcab}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>main.py</StartupFile>
+    <StartupFile>sandbox\step2\main.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -23,6 +23,8 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
     <Compile Include="main.py" />
+    <Compile Include="sandbox\step1\main.py" />
+    <Compile Include="sandbox\step2\main.py" />
     <Content Include="img\a.png" />
     <Content Include="img\b.png" />
     <Content Include="img\c.png" />
@@ -55,7 +57,9 @@
   <ItemGroup>
     <Folder Include="img" />
     <Folder Include="sandbox\" />
+    <Folder Include="sandbox\step1\" />
     <Folder Include="sandbox\paint" />
+    <Folder Include="sandbox\step2\" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
