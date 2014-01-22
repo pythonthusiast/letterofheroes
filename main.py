@@ -51,8 +51,6 @@ class Controller(StackLayout):
 		if not os.path.exists(filename):
 			filename = 'snd/default.ogg'
 		sound = SoundLoader.load(filename)
-		#print("Sound found at %s" % sound.source)
-		#print("Sound is %.3f seconds" % sound.length)
 		sound.play()
 		popup.open()
 

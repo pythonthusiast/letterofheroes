@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{d9ade3bf-7e2e-4c7e-96b2-7404afb1bcab}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>sandbox\step2\main.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
