@@ -11,8 +11,8 @@ from kivy.core.audio import SoundLoader
 
 
 class Controller(StackLayout):
-	xhint = NumericProperty(.1)
-	yhint = NumericProperty(.1)
+	xhint = NumericProperty(.2)
+	yhint = NumericProperty(.2)
 	letters = {}
 	letters['a'] = 'Avengers'
 	letters['b'] = 'Batman'
@@ -47,10 +47,10 @@ class Controller(StackLayout):
 					content=Image(source="img/" + letter + ".png"),
 					size_hint=(None, None), size=(Window.width - 20, Window.height - 50),
 					auto_dismiss=True)
-		sound = SoundLoader.load('snd/default.wav')
-		print("Sound found at %s" % sound.source)
-		print("Sound is %.3f seconds" % sound.length)
-		sound.play()
+		#sound = SoundLoader.load('snd/default.wav')
+		#print("Sound found at %s" % sound.source)
+		#print("Sound is %.3f seconds" % sound.length)
+		#sound.play()
 		popup.open()
 
 class LetterOfHeroesApp(App):
